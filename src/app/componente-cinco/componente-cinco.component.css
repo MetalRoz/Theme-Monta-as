@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-padre {
+    background: url("/assets/img/montañas2.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 118vh;
+    margin: -350px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+
+.item img{
+    object-fit: cover;
+    margin: 10px;
+    margin-top: -150px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(63,71,89, 0.5);
+    color: white;
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.container2 h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.container2 p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: white;
+}

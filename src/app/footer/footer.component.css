@@ -1,0 +1,18 @@
+footer {
+    background: #333333;
+    padding: 1em;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(175, 12, 175);
+}
+
+a:hover {
+    color: white;
+}

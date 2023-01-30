@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-padre {
+    background: url("/assets/img/bosque.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160vh;
+    margin: 350px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.item {
+    width: 30%;
+}
+
+.item img {
+    position: absolute;
+    width: 352px;
+    height: 352px;
+    object-fit: cover;
+    margin: -65px auto;
+}
+
+.item .imagenpaisaje {
+    margin: -10px auto;
+    height: 370px;
+}
+
+.paisaje h1 {
+    padding-top: 80px;
+}
+
+
+.item h1 {
+    margin: 340px auto;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    line-height: 39px;
+}
+
+.item p {
+    margin: -325px auto;
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.boton {
+    text-decoration: none;
+    color: white;
+    background: #3f4759;
+    padding: 8px;
+    width: 120px;
+    display: block;
+    text-align: center;
+    margin: 350px 19px;
+}
+
+h1, p, a {
+    padding: 0 20px;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-padre {
+    background: url("/assets/img/escalando.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+
+.adventure {
+    margin-top: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main .textos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.main .titulo h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 80px;
+    max-width: 800px;
+    color: white;
+    text-align: center;
+}
+
+.main .subtitle h5 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    max-width: 700px;
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+    font-size: 1.30rem;
+}

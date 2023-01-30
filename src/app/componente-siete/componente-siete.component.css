@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-padre {
+    background: url("/assets/img/montaña-star.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+#border {
+    height: 130px;
+    border-left: 6px solid rgb(255, 255, 255);
+    margin: -50px auto 0 668px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.textos {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    width: 500px;
+}
+
+.textos .contact {
+    font-size: 25px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+input, textarea {
+    padding: 10px;
+    background: transparent;
+    border: none;
+    margin: 10px;
+    border: 1px solid #ffffff;
+}
+
+::placeholder {
+    color: #c5c2c2;
+}
+
+.boton {
+    text-decoration: none;
+    color: white;
+    background: #3f4759;
+    padding: 10px;
+    width: 120px;
+    display: block;
+    margin-left: 10px;
+    text-align: center;
+}
